@@ -2,5 +2,5 @@
 
 ### Change log
 
-Version 0.0.1
-: Added basic .scss files
+#### Version 0.0.1
+Added basic `.scss` files
