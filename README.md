@@ -1,6 +1,6 @@
 # full-projects
 
-### Change log
+## Change log
 
 #### Version 0.0.1
 Added basic `.scss` files
