@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "mappings": ";AEEA,aAAa;AAKb,aAAa;AA8Db;;;;;;;;;kBASkB",
+    "sources": [
+        "main.scss",
+        "abstracts/_globals.scss",
+        "abstracts/_variables.scss",
+        "abstracts/_functions.scss",
+        "abstracts/_mixins.scss",
+        "base/_global.scss",
+        "base/_reset.scss",
+        "base/_general.scss",
+        "base/_fonts.scss",
+        "components/_global.scss",
+        "layout/_global.scss",
+        "pages/_global.scss",
+        "themes/_global.scss",
+        "_shame.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
