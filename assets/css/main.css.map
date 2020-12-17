@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": ";AEEA,aAAa;AAKb,aAAa;AA8Db;;;;;;;;;kBASkB",
+    "mappings": ";AEEA,aAAa;AAKb,aAAa",
     "sources": [
         "main.scss",
         "abstracts/_globals.scss",
