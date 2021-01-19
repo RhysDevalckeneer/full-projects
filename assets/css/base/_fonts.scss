@@ -1,4 +1,20 @@
 // File: _fonts.scss
 
 // Google Fonts
-// @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap);
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $primary-font;
+    color: $coolGrey-800;
+}
+
+h6 {
+    font-weight: $font-bold;
+}
+
+p {
+    font-family: $secondary-font;
+    line-height: 1.8rem;
+    color: $coolGrey-800;
+}
