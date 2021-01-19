@@ -17,8 +17,12 @@ p {
   color: #1F2937;
 }
 
+nav {
+  background-color: #3B82F6;
+}
+
 footer {
-  background-color: #DBEAFE;
+  background-color: #FFFFFF;
   padding: 4rem 0 1rem 0;
 }
 
