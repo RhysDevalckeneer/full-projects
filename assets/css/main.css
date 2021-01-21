@@ -1,7 +1,7 @@
 /** Fonts */
 /** Colors */
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap);
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   color: #1F2937;
@@ -12,14 +12,34 @@ h3 {
   font-size: 16px;
 }
 
+h4, .title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 28px;
+}
+
+h5 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 24px;
+}
+
 h6 {
   font-weight: 700;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.8rem;
   color: #1F2937;
+}
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #64748B;
+  font-weight: 300;
 }
 
 nav {
@@ -133,16 +153,19 @@ nav .container #navigation-bottom .col-md-8 ul .active a {
 
 header {
   width: 100%;
-  height: 80vh;
-  background-color: #FCA5A5;
+  height: 82vh;
+  background-image: url("../../../assets/img/thumb.jpeg");
+  background-size: cover;
   position: relative;
 }
 
 header #header-navigation {
-  width: 50%;
+  width: 55%;
   background-color: #FFFFFF;
   position: absolute;
-  bottom: -12%;
+  bottom: 0;
+  -webkit-transform: translate(0%, 50%);
+          transform: translate(0%, 50%);
   -webkit-box-shadow: 0px 0px 12px 0px rgba(87, 87, 87, 0.12);
           box-shadow: 0px 0px 12px 0px rgba(87, 87, 87, 0.12);
 }
@@ -174,8 +197,127 @@ main {
   margin-top: 12rem;
 }
 
+main .container .row .col-md-4 {
+  margin-top: 2.5rem;
+}
+
+main .container .row .col-md-4 article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  background-color: #FFFFFF;
+  padding: 2rem;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(87, 87, 87, 0.12);
+          box-shadow: 0px 0px 12px 0px rgba(87, 87, 87, 0.12);
+}
+
+main .container .row .col-md-4 article p {
+  font-size: 14px;
+  text-align: center;
+}
+
+main .container #wordt-vrijwilliger {
+  margin-top: 6rem;
+  background: -webkit-gradient(linear, left top, right top, from(#60a5fa), to(#3b82f6));
+  background: linear-gradient(90deg, #60a5fa 0%, #3b82f6 100%);
+  padding: 3rem 4rem;
+  border-radius: 8px;
+}
+
+main .container #wordt-vrijwilliger .col-md-6 p {
+  color: #FFFFFF;
+}
+
+main .container #wordt-vrijwilliger #meld-je-aan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container #wordt-vrijwilliger #meld-je-aan a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding: 1rem 1.4rem;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(87, 87, 87, 0.12);
+          box-shadow: 0px 0px 12px 0px rgba(87, 87, 87, 0.12);
+  color: #64748B;
+  color: #3B82F6;
+  text-decoration: none;
+  font-size: 16px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+main .container #evenementen {
+  margin-top: 6rem;
+}
+
+main .container #evenementen-thumbs .col-md-4 a article {
+  background-size: cover;
+  height: 275px;
+}
+
+main .container #steun-ons {
+  margin-top: 6rem;
+}
+
+main .container #steun-ons-afbeelding {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+main .container #steun-ons-afbeelding .col-md-7 img {
+  width: 100%;
+  height: 350px;
+  border-radius: 8px;
+}
+
+main .container #steun-ons-afbeelding #steun-ons-info {
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 4rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 footer {
   background-color: #FFFFFF;
+  border-top: 1px solid rgba(55, 65, 81, 0.15);
   padding: 4rem 0 1rem 0;
 }
 
@@ -187,6 +329,29 @@ footer .container #footer-top .col-md-3 {
 footer .container #footer-top .col-md-3:nth-child(1) {
   font-weight: 300;
   font-size: 14px;
+}
+
+footer .container #footer-top .col-md-3:nth-child(1) img {
+  width: 65%;
+  margin-bottom: 1rem;
+}
+
+footer .container #footer-top .col-md-3:nth-child(2) ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer .container #footer-top .col-md-3:nth-child(2) ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .container #footer-top .col-md-3:nth-child(2) ul li a {
+  color: #575757;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 footer .container #footer-top .col-md-3:nth-child(3) img {
@@ -215,7 +380,7 @@ footer .container #footer-bottom #footer-bottom-left {
 footer .container #footer-bottom #footer-bottom-left p {
   font-size: 12px;
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 footer .container #footer-bottom #footer-bottom-right {
@@ -226,7 +391,7 @@ footer .container #footer-bottom #footer-bottom-right p {
   font-size: 12px;
   text-align: right;
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
