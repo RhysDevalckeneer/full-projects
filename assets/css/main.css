@@ -347,9 +347,16 @@ header #header-nav .container .row .col-md-4 a .header-nav-item p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-weight: 300;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#who-we-are-background .container #who-we-are .col-md-6 {
+  /* a {
+
+                } */
 }
 
 #who-we-are-background .container #who-we-are .col-md-6 p {
@@ -359,6 +366,15 @@ header #header-nav .container .row .col-md-4 a .header-nav-item p {
 
 #who-we-are-background .container #who-we-are .col-md-6 img {
   width: 100%;
+}
+
+#who-we-are-background .container #who-we-are .col-md-4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#who-we-are-background .container #who-we-are .col-md-4 p {
+  color: #6B7280;
 }
 
 #activities {
@@ -535,5 +551,19 @@ footer .container #footer-bottom #footer-bottom-right {
 
 body {
   background-color: #FFFFFF;
+}
+
+.fa-phone {
+  -webkit-transform: rotate(130deg);
+          transform: rotate(130deg);
+  margin-right: .8rem;
+}
+
+.page-banner {
+  width: 100%;
+  height: 40vh;
+  background-image: url("../img/banner.png");
+  background-size: cover;
+  background-color: #FECACA;
 }
 /*# sourceMappingURL=main.css.map */
