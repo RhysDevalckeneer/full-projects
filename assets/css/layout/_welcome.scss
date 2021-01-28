@@ -19,12 +19,7 @@
                     a {
                         text-decoration: none;
                         color: $white;
-
-                        .primary-button {
-                            .primary-button-text {
-                                color: $white;
-                            }
-                        }
+                        font-weight: $font-bold;
                     }
                 }
             }

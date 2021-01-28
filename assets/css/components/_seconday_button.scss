@@ -1,11 +1,23 @@
 .secondary-button {
-    padding: 1rem 2rem;
-    border: 2px solid $blue-400;
+    padding: .8rem 1rem;
+    border: 2px solid $yellow-400;
     text-decoration: none;
     font-family: $secondary-font;
-    color: $blue-400;
+    color: $yellow-400;
     display: block;
     width: 24%;
-    text-align: center;
     margin-top: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .fa-long-arrow-right {
+        margin-top: 4px;
+    }
+}
+
+.secondary-button:hover {
+    background-color: $yellow-400;
+    color: $blueGrey-700;
 }

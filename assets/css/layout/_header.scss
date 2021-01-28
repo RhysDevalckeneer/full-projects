@@ -41,7 +41,9 @@ header {
                                 font-weight: $font-bold;
                                 margin-bottom: 1rem;
                                 font-size: 20px;
-                                color: $coolGrey-700;
+                                color: $yellow-400;
+                                display: flex;
+                                justify-content: space-between;
                             }
 
                             p {
