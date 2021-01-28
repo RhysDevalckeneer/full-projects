@@ -6,40 +6,23 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $primary-font;
-    color: $coolGrey-800;
+}
+
+h1 {
+    color: $white;
+    font-family: $secondary-font;
+    font-size: 64px;
+    font-weight: $font-bold;
 }
 
 h3 {
-    font-weight: 700;
-    font-size: 16px;
-}
-
-h4, .title {
+    color: $blue-400;
+    font-size: 32px;
     font-weight: $font-bold;
-    text-align: center;
-    font-size: 28px;
-}
-
-h5 {
-    color: $white;
-    font-weight: $font-bold;
-    font-size: 24px;
-}
-
-h6 {
-    font-weight: $font-bold;
+    margin-bottom: 1rem;
 }
 
 p {
     font-family: $secondary-font;
     line-height: 1.8rem;
-    color: $coolGrey-800;
-}
-
-.subtitle {
-    font-family: $secondary-font;
-    text-align: center;
-    font-size: 18px;
-    color: $blueGrey-500;
-    font-weight: $font-light;
 }

@@ -2,34 +2,50 @@
 
 header {
     width: 100%;
-    height: 82vh;
-    background-image: url("../../../assets/img/thumb.jpeg");
+    height: 83vh;
+    // background-color: $green-200;
+    background-image: url('https://scontent.fbru1-1.fna.fbcdn.net/v/t1.0-9/117838580_2017841148350764_1099587257771712799_o.jpg?_nc_cat=106&ccb=2&_nc_sid=cdbe9c&_nc_ohc=bcmLnhViuNMAX-lDC4P&_nc_ht=scontent.fbru1-1.fna&oh=1b06fabe1bb42e0fee24281c7c4b736a&oe=60371AB7');
     background-size: cover;
     position: relative;
+    margin-bottom: 8rem;
 
-    #header-navigation {
-        width: 55%;
-        background-color: $white;
+    .container {
+        h1 {
+            position: absolute;
+            top: 50%;
+            transform: translate(0%, -65%);
+            font-weight: $font-extraBold;
+            line-height: 5rem;
+        }
+    }
+
+    #header-nav{
+        width: 60%;
         position: absolute;
+        background-color: $white;
         bottom: 0;
         transform: translate(0%, 50%);
-        box-shadow: 0px 0px 12px 0px rgba($color: #575757, $alpha: 0.12);
+        -webkit-box-shadow: 4px 0px 12px 0px rgba(0,0,0,0.06); 
+        box-shadow: 4px 0px 12px 0px rgba(0,0,0,0.06);
 
         .container {
             .row {
-                display: flex;
-                justify-content: flex-end;
-                padding-left: 4rem;
+                padding: 2.5rem 2rem 2rem 4.5rem;
 
                 .col-md-4 {
-                    padding: 2rem 1rem 1rem 1rem; 
-
                     a {
                         text-decoration: none;
 
-                        article {
+                        .header-nav-item {
+                            h2 {
+                                font-weight: $font-bold;
+                                margin-bottom: 1rem;
+                                font-size: 20px;
+                                color: $coolGrey-700;
+                            }
+
                             p {
-                                color: #9CA3AF;
+                                color: $blueGrey-400;
                                 font-size: 14px;
                             }
                         }

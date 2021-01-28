@@ -1,0 +1,28 @@
+#who-we-are-background {
+    background-color: $blueGrey-100;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .container {
+        #who-we-are {
+            display: flex;
+            align-items: center;
+
+            .col-md-6 {
+                p {
+                    font-weight: $font-light;
+                    margin-bottom: 1.5rem;
+                }
+
+                a {
+
+                }
+            }
+            .col-md-6 {
+               img {
+                   width: 100%;
+               } 
+            }
+        }
+    }
+}
