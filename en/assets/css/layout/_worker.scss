@@ -1,0 +1,48 @@
+#worker {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    background: linear-gradient(90deg, $yellow-400 0%, $yellow-500 100%);
+    padding: 3rem 2rem;
+    border-radius: 6px;
+
+    .col-md-8 {
+        h4 {
+            font-weight: $font-bold;
+            color: $white;
+            font-size: 26px;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-weight: $font-light;
+            color: $white;
+        }
+    }
+
+    .col-md-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            background-color: $white;
+            text-decoration: none;
+            padding: 1rem 1.6rem;
+            border-radius: 6px;
+            box-shadow: 4px 0px 12px 0px rgba(0,0,0,0.06);
+
+            color: $yellow-400;
+            font-family: $primary-font;
+            font-weight: $font-bold;
+            display: flex;
+            align-items: center;
+
+            .fa-long-arrow-right {
+                margin-left: 2rem;
+                margin-top: 3px;
+            }
+        }
+        
+    }
+}
