@@ -23,3 +23,34 @@
         background-color: $white;
     }
 }
+
+
+@media screen and (max-width: 766px) {
+    .activity {
+        position: relative;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    
+        img {
+            width: 100%;
+        }
+    
+        .activity-text {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: .65rem 1.2rem;
+    
+            p {
+                font-family: $primary-font;
+            }
+            color: $yellow-400;
+            font-weight: $font-bold;
+            background-color: $white;
+        }
+    }
+}
