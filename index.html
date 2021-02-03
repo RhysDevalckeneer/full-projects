@@ -63,7 +63,8 @@
                     </div>
                     <div id="nav-top-right" class="col-md-6">
                         <a href="mailto:miet@stapsteen.be"><i class="fas fa-envelope fa-lg"></i></a>
-                        <a href="" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="https://www.facebook.com/StapsteenVzw/" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="https://www.instagram.com/stapsteen_vzw/" style="font-size: 18px;"><i class="fab fa-instagram fq-lg"></i></a>
                     </div>
                 </div>
 
@@ -76,7 +77,7 @@
                     <div id="nav-bottom-navigation" class="col-md-8">
                         <ul>
                             <li class="active">
-                                <a href="/"><i class="fas fa-circle"></i> Home</a>
+                                <a href="../index.html"><i class="fas fa-circle"></i> Home</a>
                             </li>
                             <li>
                                 <a href="./pages/over-ons.html">Over ons</a>
@@ -86,6 +87,9 @@
                             </li>
                             <li>
                                 <a href="./pages/vrijwilliger.html">Vrijwilligers</a>
+                            </li>
+                            <li>
+                                <a href="./pages/donate.html">Steun ons</a>
                             </li>
                             <li>
                                 <a href="./pages/contact.html">Contact</a>
@@ -100,13 +104,24 @@
         </nav>
 
         <!-- Header -->
-        <header>
+
+        <header id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://scontent.fbru1-1.fna.fbcdn.net/v/t1.0-9/117838580_2017841148350764_1099587257771712799_o.jpg?_nc_cat=106&ccb=2&_nc_sid=cdbe9c&_nc_ohc=bcmLnhViuNMAX-lDC4P&_nc_ht=scontent.fbru1-1.fna&oh=1b06fabe1bb42e0fee24281c7c4b736a&oe=60371AB7" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://scontent.fbru1-1.fna.fbcdn.net/v/t1.0-9/117829733_2017842981683914_21723577584990593_o.jpg?_nc_cat=108&ccb=2&_nc_sid=cdbe9c&_nc_ohc=1IlQNK9nAsMAX-vKT_r&_nc_ht=scontent.fbru1-1.fna&oh=2e07caf6b84a27a68b317ae4b51c2771&oe=6040CB4E" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://scontent.fbru1-1.fna.fbcdn.net/v/t1.0-9/90539289_1844128112388736_5304856992261603328_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=r8s4xtRgHd4AX8jizP3&_nc_ht=scontent.fbru1-1.fna&oh=0286c49e6737e12c63bb1ae28c890e74&oe=603EDBD7" class="d-block w-100" alt="...">
+              </div>
+            </div>
             <div class="container">
                 <h1>Een stap in <br />
                     de goede richting
                 </h1>
             </div>
-
             <div id="header-nav" class="row">
                 <div class="container">
                     <div class="row">
@@ -137,8 +152,9 @@
                     </div>
                 </div>
             </div>
-            
-        </header>
+          </header>
+
+        <!-- </header> -->
 
         <!-- Main -->
         <main>
@@ -199,7 +215,7 @@
                 <div id="activities" class="row">
                     <div class="col-md-12">
                         <h3>Onze activiteiten</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <p>De activiteiten kunnen gaan van knutselen tot koken of sport en spel. We proberen een divers programma aan te bieden.</p>
                     </div>
                     <div class="col-md-4">
                         <a href="#">
@@ -259,7 +275,7 @@
                 <div id="charity" class="row">
                     <div class="col-md-12">
                         <h3>Steun ons</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <p>Elke gift is welkom om ons aanbod van activiteiten uit te bouwen.</p>
                     </div>
                     <div class="col-md-6">
                         <img src="./assets/img/steun-img.png" alt="image">
@@ -291,16 +307,25 @@
                             IBAN BE21 6528 1576 2103</p>
                     </div>
                     <div id="footer-nav" class="col-md-3">
-                        <h6>Over ons</h6>
+                        <h6>StapSteen VZW</h6>
                         <ul>
                             <li>
-                                <a href="">Home</a>
+                                <a href="../index.html">Home</a>
                             </li>
                             <li>
-                                <a href="">Wie zijn we</a>
+                                <a href="./pages/over-ons.html">Over ons</a>
                             </li>
                             <li>
-                                <a href="">Contact</a>
+                                <a href="./pages/activiteiten.html">Activiteiten</a>
+                            </li>
+                            <li>
+                                <a href="./pages/vrijwilliger.html">Vrijwilligers</a>
+                            </li>
+                            <li>
+                                <a href="./pages/donate.html">Steun ons</a>
+                            </li>
+                            <li>
+                                <a href="./pages/contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -315,8 +340,11 @@
                         <h6>Gesponsord door:</h6>
                         <img src="./assets/img/skryv-logo.png">
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3" id="social-media">
                         <h6>Social Media</h6>
+                        <a href="mailto:miet@stapsteen.be"><i class="fas fa-envelope fa-lg"></i></a>
+                        <a href="https://www.facebook.com/StapsteenVzw/" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="https://www.instagram.com/stapsteen_vzw/" style="font-size: 18px;"><i class="fab fa-instagram fq-lg"></i></a>
                     </div>
                 </div>
                 <div id="footer-bottom" class="row">
