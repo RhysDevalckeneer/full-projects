@@ -1,0 +1,16 @@
+// File: _primary_button.scss
+
+.primary-button {
+    width: 100%;
+    padding: 1rem 1.65rem;
+
+    color: $white;
+    background: linear-gradient(90deg, $yellow-400 0%, $yellow-500 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    font-weight: $font-bold !important;
+    font-family: $secondary-font !important;
+    
+}

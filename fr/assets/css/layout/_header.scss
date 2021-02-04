@@ -1,0 +1,128 @@
+// File: _header.scss
+
+header {
+    width: 100%;
+    height: 83vh;
+    // background-color: $green-200;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 8rem;
+
+    .carousel-inner {
+        height: 100%;
+        .carousel-item {
+            height: 100%;
+        }
+    }
+
+    .container {
+        h1 {
+            position: absolute;
+            top: 50%;
+            transform: translate(0%, -65%);
+            font-weight: $font-extraBold;
+            line-height: 5rem;
+        }
+    }
+
+    #header-nav{
+        width: 60%;
+        position: absolute;
+        background-color: $white;
+        bottom: 0;
+        transform: translate(0%, 50%);
+        -webkit-box-shadow: 4px 0px 12px 0px rgba(0,0,0,0.06); 
+        box-shadow: 4px 0px 12px 0px rgba(0,0,0,0.06);
+
+        .container {
+            .row {
+                padding: 2.5rem 2rem 2rem 4.5rem;
+
+                .col-md-4 {
+                    a {
+                        text-decoration: none;
+
+                        .header-nav-item {
+                            h2 {
+                                font-weight: $font-bold;
+                                margin-bottom: 1rem;
+                                font-size: 20px;
+                                color: $yellow-400;
+                                display: flex;
+                                justify-content: space-between;
+                            }
+
+                            p {
+                                color: $blueGrey-400;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 766px) {
+    header {
+        width: 100%;
+        height: 83vh;
+        // background-color: $green-200;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 1rem;
+    
+        .carousel-inner {
+            height: 100%;
+            .carousel-item {
+                height: 100%;
+            }
+        }
+    
+        .container {
+            h1 {
+                position: absolute;
+                top: 50%;
+                transform: translate(0%, -65%);
+                font-weight: $font-extraBold;
+                line-height: 5rem;
+            }
+        }
+    
+        #header-nav{
+            display: none;
+    
+            .container {
+                .row {
+                    padding: 2.5rem 2rem 2rem 4.5rem;
+    
+                    .col-md-4 {
+                        a {
+                            text-decoration: none;
+    
+                            .header-nav-item {
+                                width: 100%;
+                                color: $blue-400;
+
+                                h2 {
+                                    font-weight: $font-bold;
+                                    margin-bottom: 1rem;
+                                    font-size: 20px;
+                                    color: $blue-400 !important;
+                                    display: flex;
+                                    justify-content: space-between;
+                                }
+    
+                                p {
+                                    color: $blueGrey-400;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

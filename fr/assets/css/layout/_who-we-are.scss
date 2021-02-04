@@ -1,0 +1,63 @@
+#who-we-are-background {
+    background-color: $coolGrey-50;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .container {
+        #who-we-are {
+            display: flex;
+            font-weight: $font-light;
+            align-items: center;
+
+            .col-md-6 {
+                p {
+                    font-weight: $font-light;
+                    margin-bottom: 1.5rem;
+                }
+
+                /* a {
+
+                } */
+            }
+            .col-md-6 {
+               img {
+                   width: 100%;
+               } 
+            }
+
+            .col-md-4 {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+
+                p {
+                    color: $coolGrey-500;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 766px) {
+    #who-we-are-background {
+        .container {
+            #who-we-are {
+                display: flex;
+                align-items: center;
+                .col-md-6 {
+                   img {
+                       width: 100% !important;
+                   } 
+                }
+    
+                .col-md-4 {
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
+    
+                    p {
+                        color: $coolGrey-500;
+                    }
+                }
+            }
+        }
+    }
+}

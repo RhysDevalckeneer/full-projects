@@ -1,0 +1,174 @@
+// File: _navigation.scss
+
+nav {
+    background-color: $white;
+    
+    .container {
+        #nav-top {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba($color: #374151, $alpha: 0.1);
+
+            #nav-top-left {
+                a {
+
+                    color: $blue-500;
+                    text-decoration: none;
+                    font-family: $primary-font;
+                    font-size: 14px;
+
+                    .fa-phone {
+                        transform: rotate(130deg);
+                    }
+                }
+            }
+
+            #nav-top-right {
+                text-align: right;
+
+                a {
+                    font-size: 14px;
+                    color: $coolGrey-500;
+                    margin-left: 1rem;
+                }
+            }
+        }
+
+        #nav-bottom {
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+
+            .navbar {
+                padding: 0;
+                margin: 0;
+                .container-fluid {
+                    display: flex;
+                    padding: 0;
+                    margin: 0;
+                    align-self: center;
+
+                    .collapse {
+                        .navbar-nav {
+                            width: 100%;
+                            margin: 0 auto;
+                            display: flex;
+                            justify-content: space-evenly;
+                            padding: 0;
+                            align-self: center;                          
+
+                            .nav-item {
+                                .nav-link {
+                                    font-family: $primary-font !important;
+                                }
+
+                                .active {
+                                    color: $purple-400;
+
+                                    .fa-circle {
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .navbar-text {
+                            color: red;
+                            .dropdown {
+                                .btn {
+                                    font-family: $secondary-font;
+                                    font-size: 14px;
+                                }
+
+                                .dropdown-menu {
+                                    li {
+                                        .dropdown-item {
+                                            font-family: $secondary-font;
+                                            color: $coolGrey-700;
+                                            font-size: 14px;
+                                        }
+                                    } 
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            #nav-bottom-language {
+                text-align: right;
+
+                p {
+                    margin-top: 5px;
+                    font-family: $primary-font;
+
+                    .fa-chevron-down {
+                        color: $blue-500;
+                        margin-left: .2rem;
+                    }
+                }
+            }  
+        }
+    }
+}
+
+
+@media screen and (max-width: 766px) {
+// File: _navigation.scss
+
+nav {
+    background-color: $white;
+    
+    .container {
+        #nav-top {
+            display: none;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba($color: #374151, $alpha: 0.1);
+
+            #nav-top-left {
+                a {
+
+                    color: $blue-500;
+                    text-decoration: none;
+                    font-family: $primary-font;
+                    font-size: 14px;
+
+                    .fa-phone {
+                        transform: rotate(130deg);
+                    }
+                }
+            }
+
+            #nav-top-right {
+                text-align: right;
+
+                a {
+                    font-size: 14px;
+                    color: $coolGrey-500;
+                    margin-left: 1rem;
+                }
+            }
+        }
+
+        #nav-bottom {
+            padding-top: 1.2rem;
+            padding-bottom: 1.2rem;
+
+            .nav-bar {
+                .container-fluid {
+                    img {
+                        width: 20%;
+                    }
+
+                    .collapse {
+                        .nav-bar {
+                            background-color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
