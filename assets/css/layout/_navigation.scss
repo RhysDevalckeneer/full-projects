@@ -35,46 +35,62 @@ nav {
         }
 
         #nav-bottom {
-            padding-top: 1.2rem;
-            padding-bottom: 1.2rem;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
 
-            #nav-bottom-logo {
-                display: flex;
-                align-items: center;
-
-                img{
-                    width: 90%;
-                }
-            }
-
-            #nav-bottom-navigation {
-                ul {
+            .navbar {
+                padding: 0;
+                margin: 0;
+                .container-fluid {
                     display: flex;
-                    align-items: center;
-                    justify-content: space-around;
+                    padding: 0;
+                    margin: 0;
+                    align-self: center;
 
-                    li {
-                        padding: .65rem .8rem;
-
-                        a {
+                    .collapse {
+                        .navbar-nav {
+                            width: 100%;
+                            margin: 0 auto;
                             display: flex;
-                            align-items: center;
-                            text-decoration: none;
-                            font-family: $primary-font;
-                            color: $coolGrey-600;
-                            .fa-circle {
-                                margin-right: .4rem;
-                                font-size: 12px;
+                            justify-content: space-evenly;
+                            padding: 0;
+                            align-self: center;                          
+
+                            .nav-item {
+                                .nav-link {
+                                    font-family: $primary-font !important;
+                                }
+
+                                .active {
+                                    color: $purple-400;
+
+                                    .fa-circle {
+                                        font-size: 12px;
+                                    }
+                                }
                             }
                         }
-                    }
 
-                    .active {
-                        a {
-                            color: $purple-500;
+                        .navbar-text {
+                            color: red;
+                            .dropdown {
+                                .btn {
+                                    font-family: $secondary-font;
+                                    font-size: 14px;
+                                }
 
-                            
+                                .dropdown-menu {
+                                    li {
+                                        .dropdown-item {
+                                            font-family: $secondary-font;
+                                            color: $coolGrey-700;
+                                            font-size: 14px;
+                                        }
+                                    } 
+                                }
+                            }
                         }
+
                     }
                 }
             }
@@ -139,60 +155,19 @@ nav {
             padding-top: 1.2rem;
             padding-bottom: 1.2rem;
 
-            #nav-bottom-logo {
-                display: flex;
-                align-items: center;
-
-                img{
-                    width: 90%;
-                }
-            }
-
-            #nav-bottom-navigation {
-                ul {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-around;
-
-                    li {
-                        padding: .65rem .8rem;
-
-                        a {
-                            display: flex;
-                            align-items: center;
-                            text-decoration: none;
-                            font-family: $primary-font;
-                            color: $coolGrey-600;
-                            .fa-circle {
-                                margin-right: .4rem;
-                                font-size: 12px;
-                            }
-                        }
+            .nav-bar {
+                .container-fluid {
+                    img {
+                        width: 20%;
                     }
 
-                    .active {
-                        a {
-                            color: $purple-500;
-
-                            
+                    .collapse {
+                        .nav-bar {
+                            background-color: red;
                         }
                     }
                 }
             }
-
-            #nav-bottom-language {
-                text-align: right;
-
-                p {
-                    margin-top: 5px;
-                    font-family: $primary-font;
-
-                    .fa-chevron-down {
-                        color: $blue-500;
-                        margin-left: .2rem;
-                    }
-                }
-            }  
         }
     }
 }

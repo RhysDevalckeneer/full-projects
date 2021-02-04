@@ -11,7 +11,7 @@
     background-image: url('../img/banner.png');
     background-size: cover;
     
-    background-color: $red-200;
+    // background-color: $red-200;
 }
 
 .container {
@@ -54,6 +54,27 @@
     }
 }
 
+.vrijwilligers-list {
+    margin: 2rem 0 !important;
+    list-style-type: circle;
+
+    li {
+        margin: .4rem 1.1rem;
+        font-family: $secondary-font;
+        font-weight: $font-light;
+        color: $coolGrey-500;
+        font-size: 14px;
+    }
+}
+
+.dropdown {
+    background-color: white !important;
+    color: #fff;
+}
+
+#dropdownMenuLink {
+    color: red;
+}
 
 
 @media screen and (max-width: 766px) {

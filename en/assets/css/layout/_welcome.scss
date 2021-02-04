@@ -26,3 +26,32 @@
         }
     }
 }
+
+@media screen and (max-width: 766px) {
+    #welcome {
+        display: flex;
+        align-items: center;
+    
+        .col-md-6 {
+            p {
+                color: $blueGrey-600;
+                font-weight: $font-light;
+            }
+        }
+    
+        .col-md-6 {
+            .container {
+                .row {
+                    .col-md-6 {
+                        margin-top: 1.5rem;
+                        a {
+                            text-decoration: none;
+                            color: $white;
+                            font-weight: $font-bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

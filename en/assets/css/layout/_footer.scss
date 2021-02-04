@@ -59,3 +59,50 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 766px) {
+    footer {    
+        .container{
+            #footer-top {
+                .col-md-3 {
+                    margin-top: 2rem;
+                    
+                    .footer-logo {
+                        width: 55%;
+                    }
+                }
+    
+                #footer-nav {
+                    ul {
+                        li {
+                            margin: .8rem 0;
+                            a {
+                                color: $coolGrey-600;
+                                font-family: $secondary-font;
+                                font-size: 14px;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+    
+                #partners {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+    
+                    img {
+                        width: 22%;
+                        margin: 1.2rem auto;
+                    }
+                }
+            }
+    
+            #footer-bottom {
+                #footer-bottom-right{
+                    text-align: center;
+                }
+            }
+        }
+    }
+  }

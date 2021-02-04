@@ -103,12 +103,13 @@ header {
     
                             .header-nav-item {
                                 width: 100%;
+                                color: $blue-400;
 
                                 h2 {
                                     font-weight: $font-bold;
                                     margin-bottom: 1rem;
                                     font-size: 20px;
-                                    color: $yellow-400;
+                                    color: $blue-400 !important;
                                     display: flex;
                                     justify-content: space-between;
                                 }

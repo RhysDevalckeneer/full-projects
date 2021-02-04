@@ -25,8 +25,6 @@
 
         <title>StapSteen - Geloven in gezinnen</title>
 
-        
-
         <!-- Broweser Icons -->
         <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
@@ -53,7 +51,7 @@
     </head>
 
     <body>
-        
+
         <!-- Navigation -->
         <nav>
             <div class="container">
@@ -63,82 +61,120 @@
                     </div>
                     <div id="nav-top-right" class="col-md-6">
                         <a href="mailto:miet@stapsteen.be"><i class="fas fa-envelope fa-lg"></i></a>
-                        <a href="" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="https://www.facebook.com/StapsteenVzw/" target="_blank"><i
+                                class="fab fa-facebook fa-lg"></i></a>
+                        <a href="https://www.instagram.com/stapsteenvzw/" style="font-size: 18px;"><i
+                                class="fab fa-instagram fq-lg"></i></a>
                     </div>
                 </div>
 
                 <div id="nav-bottom" class="row">
-                    <div id="nav-bottom-logo" class="col-md-2">
-                        <a href="./index.html">
-                            <img src="./assets/img/logo.svg" alt="image">
-                        </a>
-                    </div>
-                    <div id="nav-bottom-navigation" class="col-md-8">
-                        <ul>
-                            <li class="active">
-                                <a href="/"><i class="fas fa-circle"></i> Home</a>
-                            </li>
-                            <li>
-                                <a href="./pages/over-ons.html">Over ons</a>
-                            </li>
-                            <li>
-                                <a href="./pages/activiteiten.html">Activiteiten</a>
-                            </li>
-                            <li>
-                                <a href="./pages/vrijwilliger.html">Vrijwilligers</a>
-                            </li>
-                            <li>
-                                <a href="./pages/contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="nav-bottom-language" class="col-md-2">
-                        <p>NL <i class="fas fa-chevron-down"></i></p>
+                    <div class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid" style="width: 100%;padding: 0;">
+                            <img src="./assets/img/logo.svg" style="width: 10%;">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarText">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="./"><i class="fas fa-circle"></i> Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/over-ons.html">About us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/activiteiten.html">Activities</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/vrijwilliger.html">Volunteers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/donate.html">Support us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./pages/contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                                <span class="navbar-text">
+                                    <div class="dropdown">
+                                        <a class="btn btn-secondary dropdown-toggle"
+                                            style="background-color: white;border-color: #9CA3AF;color:#374151;"
+                                            href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            English
+                                        </a>
+
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <li><a class="dropdown-item" href="../index.html">Nederlands</a></li>
+                                            <li><a class="dropdown-item" href="../fr/index.html">Français</a></li>
+                                        </ul>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </nav>
 
         <!-- Header -->
-        <header>
+
+        <header id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://scontent.fbru1-1.fna.fbcdn.net/v/t1.0-9/117838580_2017841148350764_1099587257771712799_o.jpg?_nc_cat=106&ccb=2&_nc_sid=cdbe9c&_nc_ohc=bcmLnhViuNMAX-lDC4P&_nc_ht=scontent.fbru1-1.fna&oh=1b06fabe1bb42e0fee24281c7c4b736a&oe=60371AB7"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://scontent.fbru1-1.fna.fbcdn.net/v/t1.0-9/117829733_2017842981683914_21723577584990593_o.jpg?_nc_cat=108&ccb=2&_nc_sid=cdbe9c&_nc_ohc=1IlQNK9nAsMAX-vKT_r&_nc_ht=scontent.fbru1-1.fna&oh=2e07caf6b84a27a68b317ae4b51c2771&oe=6040CB4E"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://scontent.fbru1-1.fna.fbcdn.net/v/t1.0-9/90539289_1844128112388736_5304856992261603328_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=r8s4xtRgHd4AX8jizP3&_nc_ht=scontent.fbru1-1.fna&oh=0286c49e6737e12c63bb1ae28c890e74&oe=603EDBD7"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
             <div class="container">
-                <h1>Een stap in <br />
-                    de goede richting
+                <h1>A step in the<br />
+                    right direction
                 </h1>
             </div>
-
             <div id="header-nav" class="row">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
                             <a href="#who-we-are-background">
                                 <div class="header-nav-item">
-                                    <h2>Wie zijn we <i class="fas fa-long-arrow-right"></i></h2>
-                                    <p>StapSteen bestaat uit mensen met een passie.</p>
+                                    <h2>Who are we? <i class="fas fa-long-arrow-right"></i></h2>
+                                    <p>StapSteen consists of people with passion!</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-4">
                             <a href="#worker">
                                 <div class="header-nav-item">
-                                    <h2>Word vrijwilliger <i class="fas fa-long-arrow-right"></i></h2>
-                                    <p>Vrijwilligerswerk is iets doen voor andere.</p>
+                                    <h2>Become a volunteer <i class="fas fa-long-arrow-right"></i></h2>
+                                    <p>Find out what you can do as a volunteer!</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-4">
-                            <a href="#charity">
+                            <a href="#activities">
                                 <div class="header-nav-item">
-                                    <h2>Onze activiteiten <i class="fas fa-long-arrow-right"></i></h2>
-                                    <p>Wij organiseren ook verschillende activiteiten.</p>
+                                    <h2>Our activities <i class="fas fa-long-arrow-right"></i></h2>
+                                    <p>We organize various activities!</p>
                                 </div>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            
         </header>
+
+        <!-- </header> -->
 
         <!-- Main -->
         <main>
@@ -147,8 +183,10 @@
                 <!-- welcome -->
                 <div id="welcome" class="row">
                     <div class="col-md-6">
-                        <h3>Welkom!</h3>
-                        <p>Fijn dat je de weg naar onze nieuwe website gevonden hebt! Hier kan je onze werking beter leren kennen en ook uitpluizen welke leuke activiteiten wij voor jou in petto hebben. Veel plezier !</p>
+                        <h3>Welcome<span class="thisisgreen">!</span></h3>
+                        <p>We’re happy to see you find your way to the website. StapSteen is here for you.
+                            Check out the website to know how StapSteen can have meaning for you.
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <div class="container">
@@ -156,7 +194,9 @@
                                 <div class="col-md-6">
                                     <a href="./pages/donate.html">
                                         <div class="primary-button">
-                                            <p class="primary-button-text" style="color: #FFFFFF;font-weight:700;">Steun de VZW</p>
+                                            <p class="primary-button-text" style="color: #FFFFFF;font-weight:700;">
+                                                Support
+                                                the organisation</p>
                                             <i class="far fa-long-arrow-right fa-lg"></i>
                                         </div>
                                     </a>
@@ -164,7 +204,9 @@
                                 <div class="col-md-6">
                                     <a href="./pages/vrijwilliger.html">
                                         <div class="primary-button">
-                                            <p class="primary-button-text" style="color: #FFFFFF;font-weight:700;">Word vrijwilliger</p>
+                                            <p class="primary-button-text" style="color: #FFFFFF;font-weight:700;">
+                                                Become
+                                                a volunteer</p>
                                             <i class="far fa-long-arrow-right fa-lg"></i>
                                         </div>
                                     </a>
@@ -181,33 +223,47 @@
                     <!-- Who we are -->
                     <div id="who-we-are" class="row">
                         <div class="col-md-6">
-                            <h3>Over ons</h3>
-                            <p>StapSteen, een steen in een rivierbedding, een steunpunt onderweg.  StapSteen bestaat uit mensen met passie, professionelen en vrijwilligers, die dit steunpunt willen zijn voor de gezinnen die we ontmoeten. Onze motivatie en inspiratie halen we uit onze christelijke levensovertuiging.</p>
-                            <a href="./pages/over-ons.html" class="secondary-button">Lees meer <i class="fas fa-long-arrow-right"></i></a>
+                            <h3>About <span class="thisisgreen">us</span></h3>
+                            <p>StapSteen is an organization that consists of professionals and volunteers. We want to be
+                                dependable for vulnerable families that we meet from Brussels. We draw our motivation
+                                from our Christian beliefs.</p>
+
+                            <p>What do we mean by vulnerable families?
+                                These families we help, find it challenging to make ends meet. They also struggle with
+                                forming social networks or find it difficult to support the practical living conditions
+                                of the family.
+                            </p>
+                            <a href="./pages/over-ons.html" class="secondary-button">Read more <i
+                                    class="fas fa-long-arrow-right"></i></a>
                         </div>
-    
+
                         <div class="col-md-6">
-                            <img src="https://scontent.fbru1-1.fna.fbcdn.net/v/t1.0-9/86501534_1810408095760738_7056577391258238976_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=HlH89tu9AX0AX9pX1TC&_nc_ht=scontent.fbru1-1.fna&oh=7966b933711551ced635835a8481f4fa&oe=6034E289" alt="image">
+                            <img src="https://scontent.fbru1-1.fna.fbcdn.net/v/t1.0-9/86501534_1810408095760738_7056577391258238976_o.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=HlH89tu9AX0AX9pX1TC&_nc_ht=scontent.fbru1-1.fna&oh=7966b933711551ced635835a8481f4fa&oe=6034E289"
+                                alt="image">
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="container">
 
                 <!-- Activities -->
                 <div id="activities" class="row">
                     <div class="col-md-12">
-                        <h3>Onze activiteiten</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <h3>Our <span class="thisisgreen">activities</span></h3>
+                        <p>These activities can range from crafting to cooking or even sports and games. We try to offer
+                            a diverse program.
+
+                            Discover here which fun activities we have in store for you. Have fun!
+                        </p>
                     </div>
                     <div class="col-md-4">
-                        <a href="#">
+                        <a href="./pages/spelotheek.html">
                             <div class="activity">
                                 <img src="./assets/img/Mask Group-2.png" alt="">
-                                
+
                                 <div class="activity-text">
-                                    <p>Spelotheek</p> 
+                                    <p>Toy library</p>
                                     <i class="far fa-long-arrow-right fa-lg"></i>
                                 </div>
                             </div>
@@ -215,12 +271,12 @@
                     </div>
 
                     <div class="col-md-4">
-                        <a href="#">
+                        <a href="./pages/stapsteen-kids.html">
                             <div class="activity">
                                 <img src="./assets/img/Mask Group-1.png" alt="">
-                                
+
                                 <div class="activity-text">
-                                    <p>StapSteen Kids</p> 
+                                    <p>StapSteen Kids</p>
                                     <i class="far fa-long-arrow-right fa-lg"></i>
                                 </div>
                             </div>
@@ -228,12 +284,12 @@
                     </div>
 
                     <div class="col-md-4">
-                        <a href="#">
+                        <a href="./pages/bezoekteam.html">
                             <div class="activity">
                                 <img src="./assets/img/Mask Group.png" alt="">
-                                
+
                                 <div class="activity-text">
-                                    <p>Bezoek aan huis</p> 
+                                    <p>Visit team</p>
                                     <i class="far fa-long-arrow-right fa-lg"></i>
                                 </div>
                             </div>
@@ -245,12 +301,13 @@
                 <!-- Charity worker -->
                 <div id="worker" class="row">
                     <div class="col-md-8">
-                        <h4>Word vrijwilliger</h4>
-                        <p>Vrijwilligerswerk is iets doen voor anderen – in de ruimste betekenis van het woord. <br />Bouw jij mee?
+                        <h4>Become a volunteer</h4>
+                        <p>Do you get along well with children? Have a listening, non-judgemental ear?
+                            Then you are what we’re looking for.
                         </p>
                     </div>
                     <div class="col-md-4">
-                        <a href="">Meld je aan <i class="far fa-long-arrow-right fa-lg"></i></a>
+                        <a href="">Read more<i class="far fa-long-arrow-right fa-lg"></i></a>
                     </div>
                 </div>
 
@@ -258,22 +315,19 @@
                 <!-- Our charity-->
                 <div id="charity" class="row">
                     <div class="col-md-12">
-                        <h3>Steun ons</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        <h3>Support <span class="thisisgreen">us</span></h3>
+                        <p>Every donation is welcome and would be used to expand our range of activities.</p>
                     </div>
                     <div class="col-md-6">
                         <img src="./assets/img/steun-img.png" alt="image">
                     </div>
                     <div class="col-md-6">
-                        <h5>Doe een gift via overschrijving</h5>
+                        <h5>Make a donation through money transfer</h5>
                         <p>StapSteen vzw <br />
                             Chrysantenstraat 33 <br />
                             1020 Laken <br />
                             IBAN BE21 6528 1576 2103
-                            </p>
-                        <h5>Doneer online
-                        </h5>
-                        <p>Klik hier om online te doneren</p>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -291,32 +345,54 @@
                             IBAN BE21 6528 1576 2103</p>
                     </div>
                     <div id="footer-nav" class="col-md-3">
-                        <h6>Over ons</h6>
+                        <h6>StapSteen VZW</h6>
                         <ul>
                             <li>
-                                <a href="">Home</a>
+                                <a href="../index.html">Home</a>
                             </li>
                             <li>
-                                <a href="">Wie zijn we</a>
+                                <a href="./pages/over-ons.html">About us</a>
                             </li>
                             <li>
-                                <a href="">Contact</a>
+                                <a href="./pages/activiteiten.html">Activities</a>
+                            </li>
+                            <li>
+                                <a href="./pages/vrijwilliger.html">Volunteers</a>
+                            </li>
+                            <li>
+                                <a href="./pages/donate.html">Support us</a>
+                            </li>
+                            <li>
+                                <a href="./pages/contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
                     <div id="partners" class="col-md-3">
-                        <h6>Erkend en gesubsidieerd door:</h6>
-                        <figure >
-                            <img src="./assets/img/kbs-nl.png">
-                            <img src="./assets/img/keg-nl.png">
+                        <h6>Recognised and
+                            subsidized by:</h6>
+                        <figure>
+                            <a href="https://www.kbs-frb.be/nl/" target="_blank">
+                                <img src="./assets/img/kbs-nl.png">
+                            </a>
+
+                            <a href="https://www.kindengezin.be/" target="_blank">
+                                <img src="./assets/img/keg-nl.png">
+                            </a>
                         </figure>
-                        
-                        
-                        <h6>Gesponsord door:</h6>
-                        <img src="./assets/img/skryv-logo.png">
+
+                        <h6>Sponsered by:</h6>
+                        <a href="https://www.skryv.com/" target="_blank">
+                            <img src="./assets/img/skryv-logo.png">
+                        </a>
+
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3" id="social-media">
                         <h6>Social Media</h6>
+                        <a href="mailto:miet@stapsteen.be"><i class="fas fa-envelope fa-lg"></i></a>
+                        <a href="https://www.facebook.com/StapsteenVzw/" target="_blank"><i
+                                class="fab fa-facebook fa-lg"></i></a>
+                        <a href="https://www.instagram.com/stapsteenvzw/" style="font-size: 18px;"><i
+                                class="fab fa-instagram fq-lg"></i></a>
                     </div>
                 </div>
                 <div id="footer-bottom" class="row">
@@ -332,8 +408,8 @@
 
         <!-- Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-            crossorigin="anonymous"></script>
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+        </script>
     </body>
 
     </html>

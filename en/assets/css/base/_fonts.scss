@@ -15,8 +15,12 @@ h1 {
     font-weight: $font-bold;
 }
 
+h2 {
+    color: $blue-400;
+}
+
 h3 {
-    color: $yellow-400;;
+    color: $blue-400;;
     font-size: 32px;
     font-weight: $font-bold;
     margin-bottom: 1rem;
@@ -24,7 +28,7 @@ h3 {
 
 h6 {
     font-weight: $font-bold;
-    color: $yellow-400;
+    color: $blue-400;
     font-size: 20px;
     margin-bottom: .8rem;
 }
@@ -32,4 +36,8 @@ h6 {
 p {
     font-family: $secondary-font;
     line-height: 1.8rem;
+}
+
+.thisisgreen {
+    color: $green-400;
 }
